@@ -178,8 +178,8 @@ textarea.form-control {
 
 .site-header .site-logo {
   line-height: 0;
-  padding: 10px 20px;
-  border: 2px solid #fff;
+  /* padding: 10px 20px;
+  border: 2px solid #fff; */
   color: #fff;
   font-size: 30px;
 }
@@ -199,7 +199,11 @@ textarea.form-control {
 
 .site-header.scrolled {
   position: fixed;
-  padding: 1em 30px;
+  padding-left: 1em ;
+  padding-top: 0;
+  padding-right: 1em;
+  padding-bottom: 0;
+
   top: 0;
   background: #fff;
   -webkit-transition: .0s all ease;
@@ -221,12 +225,10 @@ textarea.form-control {
 }
 
 .site-header.scrolled .site-logo {
-  line-height: 1.2;
+  line-height: 1;
   display: inline-block;
   position: relative;
-  padding: 10px 20px;
-  border: 2px solid #000;
-  color: #000;
+ 
   font-size: 30px;
 }
 
