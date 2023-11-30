@@ -1162,15 +1162,15 @@ textarea.form-control {
   padding-left: 30px;
 }
 
-.large-gutters {
+/* .large-gutters {
   margin-right: -45px;
   margin-left: -45px;
-}
+} */
 
-.large-gutters > [class*="col-"] {
+/* .large-gutters > [class*="col-"] {
   padding-right: 45px;
   padding-left: 45px;
-}
+} */
 
 .accordion .btn-block {
   position: relative;
